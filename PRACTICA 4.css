@@ -1,0 +1,34 @@
+body{
+   background-color: black;
+}
+a{
+    color:rgb(113, 4, 255);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+p.poesia{
+    color:chartreuse;
+    font-family: sans-serif;
+    text-align: justify;"
+}
+blockquote{
+    color:rgb(235, 123, 245);
+}
+h2{
+    color:rgb(0, 4, 255);
+    font-family: sans-serif;
+    text-align: justify;
+}
+p{
+    color:rgb(197, 149, 252);
+    text-align: justify;
+}
+ol{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:aquamarine
+}
+h4,cite{
+    color: azure;
+    text-align: justify;
+}
