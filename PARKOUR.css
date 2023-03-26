@@ -1,0 +1,21 @@
+body{
+    background-image:url(https://i.etsystatic.com/29266568/r/il/f7f1de/3034698640/il_570xN.3034698640_gdbc.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+h1{
+    color:rgb(251, 251, 251);    
+    text-align: center;
+     font-family: 'Cookie', cursive;
+     font-size: 100px;
+}
+p{
+    color:rgb(231, 233, 233);
+    font-family: 'Delicious Handrawn', cursive;
+}
+#LOGO{
+    padding: 10px; margin: 10px; float: right; width: 250px  ;
+}
+ul{
+    color:antiquewhite;
+}

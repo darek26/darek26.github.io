@@ -1,0 +1,44 @@
+body{
+    background-image:url(https://i.etsystatic.com/29266568/r/il/f7f1de/3034698640/il_570xN.3034698640_gdbc.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+h1{
+    color:rgb(251, 251, 251);    
+    text-align: center;
+     font-family: 'Cookie', cursive;
+     font-size: 100px;
+}
+#LOGO{
+    padding: 10px; margin: 10px; float: left; width: 250px  ;
+}
+p{
+    color:rgb(231, 233, 233);
+    font-family: 'Delicious Handrawn', cursive;
+}
+th{
+
+    color:rgb(251, 251, 251);    
+    text-align: center;
+     font-family: 'Cookie', cursive;
+     font-size: 50px;
+}
+#GIMNASIA{
+    padding: 10px; margin: 10px; float: center; width: 75%;
+
+}
+#parkour{
+    padding: 10px; margin: 10px; float: center; width: 75%;
+
+}
+#cheerleader{
+    padding: 10px; margin: 10px; float: center; width: 75%; 
+
+}
+H3{
+    color:rgb(251, 251, 251); 
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-size: 20px;
+}
+
