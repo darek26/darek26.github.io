@@ -1,0 +1,59 @@
+body{
+    background-color: #03f7ff;
+}
+p {
+    border: 1px solid black;
+    outline: hsl(275, 100%, 55%) solid 10px;
+    margin: auto;  
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+    height: 50px;
+
+  }
+  p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;}
+p.solid {outline-style: solid;}
+p.double {outline-style: double;}
+p.groove {outline-style: groove;}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.outset {outline-style: outset;}
+{
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thin;
+  }
+  
+  p.ex2 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: rgb(13, 0, 255);
+    outline-width: medium;
+  }
+  
+  p.ex3 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: rgb(13, 0, 255);
+    outline-width: thick;
+  }
+  
+  p.ex4 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: rgb(13, 0, 255);
+    outline-width: 4px;
+  }
+  p.ex1 {outline: dashed;}
+p.ex2 {outline: dotted red;}
+p.ex3 {outline: 5px solid yellow;}
+p.ex4 {outline: thick ridge pink;}
+
+p.ex5 {
+    margin: 30px;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+  }
