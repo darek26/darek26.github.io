@@ -1,0 +1,92 @@
+body{
+    background: url(https://images.theconversation.com/files/257168/original/file-20190205-86213-ckszxs.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=668&h=324&fit=crop);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+@font-face{
+    font-family: mifuente;
+    src:url(KaushanScript-Regular.ftt);
+}
+
+#titulo1{
+    font-family: 'Kaushan Script', cursive;
+    display:block;
+    width: 400px;
+    position:absolute;
+    right:50px;
+    padding: 20px;
+    border:5px solid #2200ff;
+    text-align: center;
+    font-family: 'Rubik Vinyl', cursive;
+    margin: 15px auto;
+    background:rgb(251, 251, 251);
+    -moz-border-radius:20px ;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    box-shadow: rgb(143, 160, 255)10px 15px 12px inset;
+    -mos-box-shadow: rgb(143, 160, 255)10px 15px 12px inset;
+    -webkit-box-shadow: rgb(143, 160, 255)10px 15px 12px inset;
+        }
+    #menu{
+        display:block;
+      position: absolute;
+        width: 300px;
+        padding: 10px auto;
+        border:5px solid rgb(64, 64, 64);
+        text-align: center;
+        margin: 15px auto;
+        background: -moz-linear-gradient(bottom,#e902ed,#7508f1);
+        background: -webkit-linear-gradient(bottom,#e902ed,#7508f1);
+        background: linear-gradient(bottom,#e902ed,#7508f1);}
+
+#modalidades{
+    text-shadow:rgb(105, 105, 105,0.5)15px 10px 5px;
+    font-family:fantasy;
+    font-size: 45px;
+    color:rgb(12, 250, 0);
+  }
+
+  #menu:hover{
+    display:block;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border:5px solid rgb(64, 64, 64);
+    text-align: center;
+    margin: 15px auto;
+    cursor: hand;
+    background: -moz-linear-gradient(bottom,#02caed,#7508f1);
+    background: -webkit-linear-gradient(bottom,#02caed,#7508f1);
+    background: linear-gradient(bottom,#02caed,#7508f1);
+    
+}
+#abrir:hover{
+    display:block;
+}
+#opc{
+
+  
+    display:block;
+    border:5px solid rgb(64, 64, 64);
+    text-align: center;
+    background: #fd1403;
+    margin: 15px auto;
+    position: relative;
+}
+#opc:hover{
+    font-family: 'Kaushan Script', cursive;
+    cursor: pointer;
+    display:block;
+    border:5px solid rgb(64, 64, 64);
+    text-align: center;
+    background: #fdec03;
+    margin: 15px auto;
+    position: relative;
+}
+#abrir{
+    display: block;
+
+}
+#abrir:hover{
+    display:block;
+}
