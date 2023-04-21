@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones matematicas</title>
+    <script src="OperacionesMatematicas.js"></script>
+</head>
+<body>
+    <h1>Operaciones Matematicas</h1>
+    <form method="post" action="" enctype="text/plain">
+         <label for="numero1">PRIMER NUMERO</label><br/>
+         <input type="text" id="numero1" name="Escribe un numero"><br/>
+
+       <label for="numero2">SEGUNDO NUMERO</label><br/>
+        <input type="text" id="numero2" name="Escribe un numero"><br/>
+        <input type="button" name="sumar" value="suma " onclick="suma()">
+        <input type="button" name="restar" value="restar " onclick="resta()">
+        <input type="button" name="multiplicar" value="multiplicar " onclick="multiplicacion()">
+        <input type="button" name="dividir" value="dividir" onclick="divicion()">
+    </form>
+    <h2>  El resultado es:</h2>
+    <p id="resultado" name="resultado"></p>
+</body>
+</html>
