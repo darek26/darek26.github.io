@@ -2,6 +2,38 @@ body{
     background-image:url(https://i.etsystatic.com/29266568/r/il/f7f1de/3034698640/il_570xN.3034698640_gdbc.jpg);
     background-repeat: no-repeat;
     background-size: 150%;
+  
+    
+}
+#navegacion{
+    list-style:none ;
+    padding: 0;
+    background: grey;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+#navegacion li a{
+    text-decoration: none;
+    color:black;
+    padding: 20px;
+    display: block;
+
+}
+#navegacion li{
+    display: inline-block;
+    text-align: center;
+
+}
+#navegacion li a:hover{
+    background: rgb(255, 2, 2);
+    color:azure;
+}
+h4{
+    color:rgb(251, 251, 251);    
+    text-align: center;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 30px;
 }
 h1{
     color:rgb(251, 251, 251);    
@@ -10,7 +42,7 @@ h1{
      font-size: 100px;
 }
 #LOGO{
-    padding: 10px; margin: 10px; float: left; width: 250px  ;
+    padding: 10px; margin: 10px; float: left; width: 150px  ;
 }
 p{
     color:rgb(231, 233, 233);
