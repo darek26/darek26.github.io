@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRISOL ACADEMY</title>
+    <H1 align="center" >INSCRIPCION</H1>
+    <link href="inscripcion.css" rel="stylesheet">
+</head>
+<body>
+    <h3 align="center">Registro a la academia:</h3>
+    <div align="center">
+<form action="inscripcion.php" method="post">
+<leabel for="nombre">correo electronico:</leabel></br>
+<input type="text" id="nombre" name="nombre"  placeholder="Email"></br>
+<label for="name">Nombre del atleta:</label></br>
+<input type="text" id="name" name="name" required>
+<br>
+<label for="age">Edad:</label></br>
+<input type="number" id="age" name="age" required>
+<br>
+<label for="address">Domicilio:</label></br>
+<input type="text" id="address" name="address" required>
+<br>
+<label for="discipline">Disciplina:</label></br>
+<select id="discipline" name="discipline" required>
+  <option value="">Selecciona una disciplina</option></br>
+  <option value="Gimnasia artística">Gimnasia artística</option>
+  <option value="Parkour">Parkour</option>
+  <option value="Cheerleader">Cheerleader</option>
+</select></br>
+<leabel for="mensaje">Comentario</leabel></br></br>
+<textarea id="mensaje" name="mensaje"></textarea>
+
+</br><input type="submit" id="submit" nam="submit" value="Enviar Formulario">
+</form>
+
+    </div>
+    
