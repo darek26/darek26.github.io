@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="practica 4 RFC.js"></script>
+    <link href="practica 4 RFC.css" rel="stylesheet">
+</head>
+<body>
+    <form>
+    </br> <label>Nombre:</label></br>
+        <input type="text" name="nombre"><br>
+      
+    </br><label>Apellido paterno:</label></br>
+        <input type="text" name="apellidoPaterno"></br>
+      
+    </br><label>Apellido materno:</label></br>
+        <input type="text" name="apellidoMaterno"></br>
+      
+    </br> <label>Fecha de nacimiento:</label></br>
+        <input type="number" name="año" placeholder="Año">
+        <input type="number" name="mes" placeholder="Mes">
+        <input type="number" name="dia" placeholder="Día">
+        
+    </br></br><input type="button" value="CLICK PARA GENERAR"id="boton" name="boton" onclick="RFC()" />
+        
+      </form>
+      <h2>  Tu RFC es:</h2>
+    <p id="resultado" name="resultado"></p>
+</body>
+</html>
