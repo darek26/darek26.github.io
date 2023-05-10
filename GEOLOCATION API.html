@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API GEOLOCATION</title>
+    <link href="GEOLOCATION API.css" rel="stylesheet">
+    <script src="GEOLOCATION API.js"></script>
+</head>
+<body>
+<h1>¿QUE ES?</h1>
+<P>
+    La API Geolocation fue diseñada para que los navegadores puedan proveer un mecanismo
+de detección por defecto que permita a los desarrolladores determinar la ubicación física
+real del usuario. Previamente solo contábamos con la opción de construir una gran base
+de datos con información sobre direcciones IP y programar códigos exigentes dentro del
+servidor que nos darían una idea aproximada de la ubicación del usuario
+</P> 
+<p>
+    <h1>IMPLEMENTACION</h1>
+    Esta API aprovecha nuevos sistemas, como triangulación de red y GPS, para retornar una
+ubicación precisa del dispositivo que está accediendo a la aplicación. La valiosa información
+retornada nos permite construir aplicaciones que se adaptarán a las particulares
+necesidades del usuario o proveerán información localizada de forma automática.
+</p></br>
+<P>
+<h4>Tres métodos específicos son provistos para usar la API:</h4>
+</br>
+getCurrentPosition(ubicación, error, configuración) Este es el método utilizado para
+consultas individuales. Puede recibir hasta tres atributos: una función para procesar la
+ubicación retornada, una función para procesar los errores retornados, y un objeto
+para configurar cómo la información será adquirida. Solo el primer atributo es
+obligatorio para que el método trabaje correctamente.
+watchPosition(ubicación, error, configuración) Este método es similar al anterior, excepto
+que comenzará un proceso de vigilancia para la detección de nuevas ubicaciones.
+Trabaja de forma similar que el conocido método setInterval() de Javascript,
+repitiendo el proceso automáticamente en determinados períodos de tiempo de
+acuerdo a la configuración por defecto o a los valores de sus atributos.
+clearWatch(id) El método watchPosition() retorna un valor que puede ser almacenado en
+una variable para luego ser usado como referencia pro el método clearWatch() y así
+detener la vigilancia. Este método es similar a clearInterval() usado para detener los
+procesos comenzados por setInterval().
+</P>
+<H1>En mi Pagina:</H1>
+<p>
+    Se dara un descuento a "vecinos" todo aquel nuevo integrante a formar parte de nuestra academia en un perimetro determinado cerca de la academia recibira un 50% de descuento en su inscripcion
+</p>
+
+<p>las coordenadas del gimnasio son con preferencia de 1 kilometro , es decir si vives a menos de 1 kilometro
+    de la academia te damos el descuento y aparecera un mensaje que si eres vecino de lo contrario , 
+    aparecera "lo siento no eres vecino" y no habra descuento.
+</p>
+
+<p id="mensaje"></p>
+</body>
+</html>
