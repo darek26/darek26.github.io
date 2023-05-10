@@ -1,0 +1,29 @@
+body{
+    background: url(https://e0.pxfuel.com/wallpapers/444/62/desktop-wallpaper-for-laptop-black-grunge-pattern.jpg);
+   background-size: 200%;
+    background-repeat: no-repeat;
+    color:rgb(0, 4, 255);
+    font-size: 20px;
+}
+h1,h2{
+    text-align:center;
+    color:rgb(229, 255, 0);
+    font-size: 30px;
+}
+li{
+    color:rgb(255, 5, 5);
+font-size: 30px;
+}
+
+#comentario{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+    color:aqua;
+}
+#total{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    color:aqua;
+}
