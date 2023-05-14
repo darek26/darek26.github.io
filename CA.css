@@ -1,7 +1,7 @@
 body{
     background-image:url(https://i.etsystatic.com/29266568/r/il/f7f1de/3034698640/il_570xN.3034698640_gdbc.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: 200%;
   
     
 }
@@ -12,6 +12,7 @@ body{
     width: 90%;
     max-width: 1000px;
     margin: auto;
+    text-align: center;
 }
 #navegacion li a{
     text-decoration: none;
@@ -59,11 +60,11 @@ th{
     padding: 10px; margin: 10px; float: center; width: 75%;
 
 }
-#parkour{
-    padding: 10px; margin: 10px; float: center; width: 75%;
+#PARKOUR{
+    padding: 10px; margin: 10px; float: center; width: 100%;
 
 }
-#cheerleader{
+#CHEERLEADER{
     padding: 10px; margin: 10px; float: center; width: 75%; 
 
 }
