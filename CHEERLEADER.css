@@ -1,21 +1,94 @@
 body{
     background-image:url(https://i.etsystatic.com/29266568/r/il/f7f1de/3034698640/il_570xN.3034698640_gdbc.jpg);
-    background-repeat: no-repeat;
-    background-size: 150%;
+
+    background-size: 200%;
+    color:white
 }
 h1{
     color:rgb(251, 251, 251);    
     text-align: center;
      font-family: 'Cookie', cursive;
      font-size: 100px;
-}
+
+    }
 p{
     color:rgb(231, 233, 233);
     font-family: 'Delicious Handrawn', cursive;
-}
+    font-size: 20px;
+text-align: justify;}
 #LOGO{
     padding: 10px; margin: 10px; float: right; width: 250px  ;
 }
 ul{
     color:antiquewhite;
+}
+#titulo1{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-ser 
+}
+#titulo2{
+    font-size: 30px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-ser
+}
+#navegacion{
+    list-style:none ;
+    padding: 0;
+    background: grey;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+#navegacion li a{
+    text-decoration: none;
+    color:black;
+    padding: 20px;
+    display: block;
+
+}
+#navegacion li{
+    display: inline-block;
+    text-align: center;
+
+}
+#navegacion li a:hover{
+    background: rgb(255, 2, 2);
+    color:azure;
+}
+#informacion{
+    background-color: rgb(0, 0, 0);
+}
+#HORARIOS{
+    background-color: rgb(252, 1, 118);
+}
+#COSTOS{
+    background-color: rgb(252, 1, 118);
+}
+
+#HORARIOS:hover{
+    background-color: rgb(196, 0, 250);
+}
+#COSTOS:hover{
+    background-color: rgb(196, 0, 250);
+}
+#HORARIOS2{
+    background-color: rgb(1, 9, 252);
+}
+#COSTOS2{
+    background-color: rgb(1, 9, 252);
+}
+
+#HORARIOS2:hover{
+    background-color: rgb(196, 0, 250);
+}
+#COSTOS2:hover{
+    background-color: rgb(196, 0, 250);
+}
+#entrenadores li{
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+#entrenadores{
+    font-size: 30px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
