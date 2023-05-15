@@ -19,3 +19,91 @@ p{
 ul{
     color:antiquewhite;
 }
+body{
+    background-image:url(https://i.etsystatic.com/29266568/r/il/f7f1de/3034698640/il_570xN.3034698640_gdbc.jpg);
+    background-repeat: no-repeat;
+    background-size: 250%;
+    color:white;
+}
+h1{
+    color:rgb(251, 251, 251);    
+    text-align: center;
+     font-family: 'Cookie', cursive;
+     font-size: 100px;
+}
+p{
+    color:rgb(231, 233, 233);
+    font-family: 'Delicious Handrawn', cursive;
+}
+#LOGO{
+    padding: 10px; margin: 10px; float: right; width: 250px  ;
+}
+ul{
+    color:antiquewhite;
+}
+#navegacion{
+    list-style:none ;
+    padding: 0;
+    background: grey;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+#navegacion li a{
+    text-decoration: none;
+    color:black;
+    padding: 20px;
+    display: block;
+
+}
+#navegacion li{
+    display: inline-block;
+    text-align: center;
+
+}
+#navegacion li a:hover{
+    background: rgb(255, 2, 2);
+    color:azure;
+}
+#GIMACIAFEMENIL{
+    
+    align:100%;
+    border-color: black;
+    aling:center;
+
+}
+#GIMNACIAVARONIL th td{
+    text-align: center;
+}
+#GIMACIAVARONIL{
+   
+    align:100%;
+    aling:center;
+
+}
+#GIMNACIAFEMENIL th td{
+    text-align: center;
+    border: none;
+}
+table{
+    aling:100%;
+    
+  border-spacing: 20px;
+}
+#informacion{
+    background-color: rgb(0, 0, 0);
+}
+#HORARIOS{
+    background-color: rgb(252, 1, 1);
+}
+#COSTOS{
+    background-color: rgb(252, 1, 1);
+}
+
+#HORARIOS:hover{
+    background-color: rgb(111, 1, 1);
+}
+#COSTOS:hover{
+    background-color: rgb(111, 1, 1);
+}
