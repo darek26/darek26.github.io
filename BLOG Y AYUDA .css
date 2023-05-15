@@ -1,0 +1,17 @@
+body{
+    background-image:url(https://i.etsystatic.com/29266568/r/il/f7f1de/3034698640/il_570xN.3034698640_gdbc.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    color:aliceblue;
+   
+ 
+   
+}
+#vecino{
+    color:yellow;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
