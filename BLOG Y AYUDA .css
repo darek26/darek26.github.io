@@ -1,6 +1,5 @@
 body{
     background-image:url(https://i.etsystatic.com/29266568/r/il/f7f1de/3034698640/il_570xN.3034698640_gdbc.jpg);
-    background-repeat: no-repeat;
     background-size: 150%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 200%;
@@ -14,29 +13,4 @@ body{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
-}
-#navegacion{
-    list-style:none ;
-    padding: 0;
-    background: grey;
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-    text-align: center;
-}
-#navegacion li a{
-    text-decoration: none;
-    color:black;
-    padding: 20px;
-    display: block;
-
-}
-#navegacion li{
-    display: inline-block;
-    text-align: center;
-
-}
-#navegacion li a:hover{
-    background: rgb(255, 2, 2);
-    color:azure;
 }
