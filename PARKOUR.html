@@ -14,12 +14,77 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
         <link rel="icon" type=" imag/jpg" href ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBhuS_e2p2a3GP9zPt0Y_OB9k2_OvYoj5VNu7zGnMbLw&s"/>
-      
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
  </head>
+ <script type="text/javascript" src="js/jquery/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/jquery/jquery-ui-1.8.17.custom.min.js "></script>
+<script type="text/javascript" src="jspdf.js"></script>
+<script type="text/javascript" src="jspdf.plugin.addImage.js"></script>
+<script type="text/javascript" src="jspdf.standard_fonts_matrics.js"></script>
+<script type="text/javascript" src="jspdf.plugin.split_text_to_size.js"></script>
+ <script type="text/javascript" src="jspdf.plugin.from_html.js"></script>
+
+<script>
+var total;
+function califica()
+    {var total=0;
+    	for (var x=1;x<=4;x++)
+    	{
+        var res=0;
+        var nom="r"+x;
+        var resul=document.getElementsByName(nom);
+        for(var i=0;i<resul.length;i++)
+        {
+            if(resul[i].checked==true)
+                res=parseInt(resul[i].value);
+        }
+        total=total+res;
+        document.getElementById("total").innerHTML="Puntos obtenidos: "+total+" Puntos";
+        }
+        if(total==20)
+        	document.getElementById("comentario").innerHTML="EXCELENTE!!!";
+        else
+        	if(total==15)
+        	document.getElementById("comentario").innerHTML="Regular!!";
+        else
+        	if(total<=15)
+        	document.getElementById("comentario").innerHTML="Estudia un poco más";
+    }
+
+function generar(){
+	//Crear un objeto o instancia jsPDF
+var doc = new jsPDF();
+
+//Definir el tamaño de la letra
+doc.setFontSize(40);
+//Color del texto
+doc.setTextColor(9,7,121);
+doc.text(40, 20, "¿ Que tanto conoces del parkour?");
+doc.setTextColor(17, 122, 209); //Color en formato RGB
+doc.setFontSize(30);
+doc.text(50, 35, "Resultados "); //Ubicación, Texto
+doc.setTextColor(0,0,0);
+doc.setFontSize(10);
+doc.text(20, 50, "9 puntos. Muy bien. \r Todas tus respuestas son correctas");
+doc.text(20, 70, "6 puntos. Regular. \r Obtuviste 2 preguntas correctas");
+doc.text(20, 90, "3 puntos. \r Obtuviste 1 pregunta correcta");
+doc.text(20, 110, "0 puntos. \r Todas tus respuestas son incorrectas");
+
+//doc.addImage(imgData, 'JPEG', 10, 40, 180, 180);
+
+var string = doc.output('datauristring');
+
+$('iframe').attr('src', string);
+
+}
+ 
+</script>
 <body>
- <ul id="navegacion">
+    <ul id="navegacion">
         <li><a href="darek26.github.io/PARKOUR.html">INICIO</a></li>
-        <li><a href="https://darek26.github.io/GIMNASIA_ARTISTICA_CA.htm">GIMNASIA ARTISTICA</a></li>
+        <li><a href="https://darek26.github.io/GIMNASIA_ARTISTICA_CA.html">GIMNASIA ARTISTICA</a></li>
         <li><a href="https://darek26.github.io/PARKOUR.html">PARKOUR</a></li>
         <li><a href="https://darek26.github.io/CHEERLEADER.html">CHEERLEADER</a></li>
         <li><a href="https://darek26.github.io/CONTACTANOS%20CA.html">CONTACTANOS</a></li>
@@ -92,6 +157,48 @@
             <TD><img src="https://scontent.fntr6-1.fna.fbcdn.net/v/t39.30808-6/335640567_221078277118847_3975400363870934001_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGZob3wt3C0Ekssrxv7Ae0NxZyFazaxdiTFnIVrNrF2JBBoaaOUY7GQdLP9eWzQ-5I5O9GAZvoAPQrG5UhjUbzg&_nc_ohc=NMB3Vd3vUdsAX_1YFZ9&_nc_ht=scontent.fntr6-1.fna&oh=00_AfCpR_8HrQ-T_qSICrYNJv34NQm60paVFQl40K2XMiWCUw&oe=646731D7"width="250px" height="200px"></TD>
             <TD><img src="https://scontent.fntr6-3.fna.fbcdn.net/v/t39.30808-6/336361150_181749621279158_2835481228120411594_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGuV0UjeOhUnnOTefXZ-SIwQesxWiw7HEBB6zFaLDscQHUTbBfW097DKRglHguniRMpo26a4BVx0JU53iT1Z9VI&_nc_ohc=pADTDxeOT3YAX91kVPJ&_nc_ht=scontent.fntr6-3.fna&oh=00_AfCpjvcqtrlVckBJ7F1r_ZZo71sVNM_XYdnyh5baRax_pQ&oe=64672D61"width="250px" height="200px"></TD>
             <TD><img src="https://scontent.fntr6-1.fna.fbcdn.net/v/t39.30808-6/335839623_739270071225007_243141126932295097_n.jpg?stp=dst-jpg_p843x403&_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGyWtImD0GUDaulyJo1Rw8u3xq_K25d-ZTfGr8rbl35lDMUhZKDIkdPEXOVK-xFOzUZwxNbb8AF6zMp9pkBjZmM&_nc_ohc=5JJxUgnkxmUAX-RCOi4&_nc_ht=scontent.fntr6-1.fna&oh=00_AfB3NSi9OXp2cwVQADbJjxTq30QtkaqDnlGRBo-h5gDBZQ&oe=64674EC3"width="250px" height="200px"></TD>
-        </TR>
+        </TR></table>
+        <div id="contiene">
+            <h4>CONTESTA ESTA ENCUESTA IMRPIME TUS RESULTADOS Y NO PAGARAS INSCRIPCION</h4>
+          
+        <form>
+        <div>
+            
+            <ul>
+        
+                <li>¿A quién se le considera como el fundador del parkour?</li>
+                <input type="radio" name="r1" id="r1" value="5"/>DAVID BELL<br/>
+                <input type="radio" name="r1" id="r1" value="0"/>RAYMOND BELL<br/>
+                <input type="radio" name="r1" id="r1" value="0"/>TOM TOMATO<br/>
+                <input type="radio" name="r1" id="r1" value="0"/>SHIFER WHAT<br/>
+                
+                <li>¿Comó se llamo el primer grupo de parkour?</li>
+                <input type="radio" name="r2" id="r2" value="0"/>STORROR<br/>
+                <input type="radio" name="r2" id="r2" value="0"/>GUP<br/>
+                <input type="radio" name="r2" id="r2" value="0">WHAT!<br/>
+                <input type="radio" name="r2" id="r2" value="5"/>YAMAKASI<br/>
+        
+                <li>¿En qué pais se originó el parkour?</li>
+                <input type="radio" name="r3" id="r3" value="0"/>ESPAÑA<br/>
+                <input type="radio" name="r3" id="r3" value="5"/>FRANCIA<br/>
+                <input type="radio" name="r3" id="r3" value="0"/>ALEMANIA<br/>
+                <input type="radio" name="r3" id="r3" value="0"/>EUA<br/>
+        
+                <li>Nombre de la campeona mundial mexicana de parkour:</li>
+                <input type="radio" name="r4" id="r4" value="0"/>SYNDEY OLSON<br/>
+                <input type="radio" name="r4" id="r4" value="0"/>NOA DIORGINA<br/>
+                <input type="radio" name="r4" id="r4" value="5"/>ELLA BUCIO<br/>
+                <input type="radio" name="r4" id="r4" value="0"/>NASTYA LOIK<br/>
+            </ul>
+            
+        </div>
+        <input type="button" value="Calificar" onclick="califica()">
+        <input type="button" onclick="generar()" value="Ver resultados"/> <br/>
+        </form>
+        <p></p>
+        <p id="total">   </p>
+        <p id="comentario">   </p>
+        <iframe frameborder="0" width="600" height="500"></iframe>
+        </div>
 </body>
 </html>
