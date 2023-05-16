@@ -2,6 +2,7 @@ body{
     background-image:url(https://i.etsystatic.com/29266568/r/il/f7f1de/3034698640/il_570xN.3034698640_gdbc.jpg);
     background-repeat: no-repeat;
     background-size: 150%;
+    color:white;
     
 }
 .table{
@@ -24,4 +25,29 @@ a.visited{
 .titulo2{
     color:beige;
     text-align: left;
+}
+#navegacion{
+    list-style:none ;
+    padding: 0;
+    background: grey;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+#navegacion li a{
+    text-decoration: none;
+    color:black;
+    padding: 20px;
+    display: block;
+
+}
+#navegacion li{
+    display: inline-block;
+    text-align: center;
+
+}
+#navegacion li a:hover{
+    background: rgb(255, 2, 2);
+    color:azure;
 }
