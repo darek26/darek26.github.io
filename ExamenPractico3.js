@@ -1,0 +1,5 @@
+function(descuento){
+    if(fechaNacimiento){
+        
+    }
+}

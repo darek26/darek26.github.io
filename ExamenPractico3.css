@@ -1,0 +1,34 @@
+body{
+    background: url(https://www.xtrafondos.com/thumbs/1_6504.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;   
+    color:darkblue;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+}
+#enviar{
+    size: 50px;
+    text-align: center;
+}
+#sin{
+   text-align: center;
+   color: red;
+   visibility: visible;
+}
+#sin:hover{
+    text-align: center;
+    color: red;
+    
+ }
+ #con{
+    text-align: center;
+    color: rgb(238, 0, 255);
+    overflow: hidden;
+  
+ }
+ #con:hover{
+     text-align: center;
+     color: rgb(0, 4, 255);
+     visibility: visible;
+     
+  }
